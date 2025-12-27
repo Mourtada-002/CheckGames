@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth scroll-p-[1rem]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckGames</title>
+    <link rel="icon" href="assets/img.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+</head> 
+<body>
+    <!-- navbar coponent -->
+<nav class="flex flex-wrap items-center md:flex-row justify-between bg-gray-800 p-4 gap-4">
+    <a href="" class="logo w-auto mr-2 font-serif text-white text-2xl">CheckGames</a>
+
+    <div class="block md:hidden">
+        <label id="nav-toggle" for="toggleNavbar" class="flex gap-1 p-2 px-4 border border-current rounded-lg cursor-pointer select-none text-white">☰ Menu</label>
+    </div>
+
+    <input type="checkbox" id="toggleNavbar" class="hidden peer" aria-hidden="true">
+    
+    <div class="group
+        absolute md:relative peer-checked:relative my-5 md:my-0 h-0 w-full md:w-auto md:h-fit overflow-hidden peer-checked:h-fit
+        opacity-0 md:opacity-100 peer-checked:opacity-100 transition duration-300 peer-checked:translate-y-2 md:peer-checked:translate-y-0
+        flex items-center flex-col md:flex-row md:justify-end gap-10 text-xl font-semibold">
+        <ul class="flex gap-6 flex-col md:flex-row justify-center">
+             <li class="p-2 text-center"><a href="#header-coponent" class="text-white">Home</a></li>
+            <li class="p-2 text-center"><a href="#how-to-play" class="text-white">How to play</a></li>
+            <li class="p-2 text-center"><a href="#about" class="text-white">About</a></li>
+            <li class="p-2 text-center"><a href="#team" class="text-white">Team</a></li>
+        </ul>
+        <button class="bg-white transition-colors delay-75 duration-300 hover:bg-indigo-700 text-indigo-500 hover:text-white font-bold px-4 py-2 rounded uppercase">Play now</button>
+    </div>
+</nav>
+
+<!-- header coponent -->
+<div id="header-coponent" class="header flex bg-gray-800 backdrop-contrast-200 overflow-x-clip">
+    <div class="pt-12 md:pt-16 pb-6 px-6 md:px-8 lg:pl-12 lg:pr-0 lg:w-7/12 w-full grid grid-cols-1 auto-rows-min lg:justify-items-start justify-items-center gap-y-4">
+        <h1 class="lg:text-8xl text-4xl md:text-5xl text-center lg:text-start font-bold text-white text-balance">
+           Play without limits with CheckGames 
+        </h1>
+        <h2 class="text-xl md:text-2xl lg:text-3xl text-center text-balance lg:text-start text-gray-300 mt-6 md:mt-8 ">
+        Play a simple card game and face off against other players. Are you ready to dominate the arena?
+        </h2>
+        <div class="flex justify-between gap-4 md:gap-6 mt-4 md:flex-row flex-col">
+            <button class="bg-white transition-colors delay-75 duration-300 hover:bg-indigo-700 text-indigo-500 hover:text-white font-bold text-center rounded text-lg md:text-xl px-6 md:px-8 py-3 md:py-4 uppercase">play now</button>
+            <a href="#how-toPlay" class="transition-colors delay-75 duration-300 hover:text-white font-bold text-center rounded text-lg md:text-xl px-6 md:px-8 py-3 md:py-4 bg-transparent border border-white text-gray-100 hover:border-indigo-600 hover:bg-indigo-600">How to play</a>            
+        </div>
+    </div>
+
+    <div class="hero-wrapper z-0 relative hidden lg:flex justify-center items-center">
+        <img class="h-3/4 z-20 transition translate-x-1 hover:translate-x-2 hover:-translate-y-1 object-contain" src="assets/img.png" alt="ensemble d'items de jeux">
+
+        <div class="absolute w-96 h-96 rounded-full bg-indigo-500 opacity-40 -z-10 blur-[80px] contrast-150 top-0 -left-10"></div>
+        <div class="absolute w-3/4 h-3/4 rounded-full bg-purple-800 opacity-50 -z-10 blur-[80px] contrast-150 top-32 left-2/3 -translate-x-1/2"></div>
+        <div class="absolute w-96 h-96 rounded-full bg-red-400 opacity-60 -z-10 blur-[80px] contrast-150 animate-pulse -bottom-1/4 left-1/3 -translate-y-1/4"></div>
+    </div>
+</div>
+
+<!-- Section How to Play -->
+<div id="how-to-play" class="how-to-play bg-gray-800 text-gray-100 py-12 md:py-16">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col items-center gap-4">
+            <h1 class="rounded-xl bg-gray-200 text-gray-800 text-sm py-2 px-4 mb-4 md:mb-6 w-fit mx-auto font-semibold">
+                How to Play
+            </h1>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 text-center"> 
+                CheckGames Gameplay
+            </h2>
+            <p class="text-base md:text-lg text-gray-100 text-center">
+                Learn how to play CheckGames
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 mt-12 md:mt-16 md:gap-12 gap-10">
+            <!-- Élément 1 -->
+            <div class="group grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-8 items-center">
+                <div>
+                    <img class="h-64 md:h-72 lg:h-80 rounded-lg w-full bg-slate-700 object-cover object-top" src="assets/img1.jpeg" alt="Step 1">
+                </div>
+                <div class="mt-6 md:mt-0">
+                    <h3 class="text-2xl md:text-3xl italic font-bold text-center md:text-left">
+                        Each player starts with 5 cards
+                    </h3>
+                    <p class="mt-6 md:mt-8 text-base md:text-lg text-center md:text-left">
+                        The primary objective of the game is to outpace your opponents by being the first to discard all the cards in your hand. Each player starts with a set number of cards, and through strategic play and careful consideration of each move, they must work towards emptying their hand.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Élément 2 -->
+            <div class="group grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-8 items-center mt-10 md:mt-0">
+                <div class="md:order-last">
+                    <img class="h-64 md:h-72 lg:h-80 rounded-lg w-full bg-slate-700 object-cover object-top" src="assets/img2.jpeg" alt="Step 2">
+                </div>
+                <div class="mt-6 md:mt-0 md:order-first">
+                    <h3 class="text-2xl md:text-3xl italic font-bold text-center md:text-left">
+                        Players take turns drawing and discarding cards
+                    </h3>
+                    <p class="mt-6 md:mt-8 text-base md:text-lg text-center md:text-left">
+                        Gameplay proceeds in turns, with each player drawing a card from the deck and then discarding one from their hand. This cycle continues, requiring players to adapt their strategies based on the evolving game state and the actions of their opponents.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Élément 3 -->
+            <div class="group grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-8 items-center mt-10 md:mt-0">
+                <div>
+                    <img class="h-64 md:h-72 lg:h-80 rounded-lg w-full bg-slate-700 object-cover object-top" src="assets/img3.jpeg" alt="Step 3">
+                </div>
+                <div class="mt-6 md:mt-0">
+                    <h3 class="text-2xl md:text-3xl italic font-bold text-center md:text-left">
+                        The game continues until one player has no cards left
+                    </h3>
+                    <p class="mt-6 md:mt-8 text-base md:text-lg text-center md:text-left">
+                        The primary objective of the game is to outpace your opponents by being the first to discard all the cards in your hand. Each player starts with a set number of cards, and through strategic play and careful consideration of each move, they must work towards emptying their hand.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Élément 4 -->
+            <div class="group grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-8 items-center mt-10 md:mt-0">
+                <div class="md:order-last">
+                    <img class="h-64 md:h-72 lg:h-80 rounded-lg w-full bg-slate-700 object-cover object-top" src="assets/img4.jpeg" alt="Step 4">
+                </div>
+                <div class="mt-6 md:mt-0 md:order-first">
+                    <h3 class="text-2xl md:text-3xl italic font-bold text-center md:text-left">
+                        the player who discards all their cards first wins
+                    </h3>
+                    <p class="mt-6 md:mt-8 text-base md:text-lg text-center md:text-left">
+                        Congratulations to the player who successfully discards all their cards first! This player is declared the winner of the game, having outmaneuvered their opponents through strategic play and effective card management.
+                    </p>
+                </div>    
+            </div>
+            
+            <div class="flex justify-center gap-4 md:gap-6 mt-8 md:mt-10">
+                <button class="bg-white transition-colors delay-75 duration-300 hover:bg-indigo-700 text-indigo-500 hover:text-white font-bold rounded text-lg md:text-xl px-8 md:px-10 py-4 md:py-5" disabled>
+                    I'm ready to play! 
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <!-- Section about CheckGames -->
+       <div id="about" class="about-check-games py-28 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col items-center gap-4">
+                <h1 class="rounded-xl bg-gray-800 text-gray-300 text-sm py-2 px-4 mb-4 w-fit mx-auto font-semibold">
+                    About CheckGames
+               </h1>
+               <h2 class="text-4xl  text-center font-bold text-gray-800"> 
+                   Joy And Entertainment Through An Engaging Card Game
+               </h2>
+               <p class="text-center lg:px-30 text-lg text-gray-800">
+                   CheckGames is designed to provide players with an enjoyable and engaging experience. The game combines elements of strategy, luck, and social interaction, making it a perfect choice for gatherings with friends and family. Whether you're a seasoned card player or new to the genre, CheckGames offers a fun and accessible way to connect with others and enjoy some friendly competition.
+                </p>
+             </div>
+
+             <div class="flex justify-center px-6 items-center">
+                <img class="lg:w-3/6 w-4/6 mt-8" src="assets/img.png" alt="Someone enjoying a video game">
+             </div>
+
+             <h2 class="text-5xl font-bold text-center text-gray-800 mb-12">
+                What Our Players Say
+             </h2>
+
+             <div class="relative w-full px-6">
+                <div id="carousel" class="flex w-full h-40 justify-start flex-auto gap-4 overflow-hidden snap-x snap-mandatory">
+                    <div class="testimonial lg:min-w-96 min-w-full text-lg flex-grow snap-start p-6 bg-gray-800 rounded-lg shadow-lg mx-2">
+                        <p class="text-gray-100 mb-4">
+                            "CheckGames is amazing! I love playing it every day."
+                        </p>
+                        <div class="flex justify-start gap-4">
+                            <img class="w-8 h-8 rounded-full" src="assets/img5.jpeg" alt="Profite picture">
+                            <p class="font-bold text-gray-200">
+                                Mohamed
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial lg:min-w-96 min-w-full text-lg flex-grow snap-start p-6 bg-gray-800 rounded-lg shadow-lg mx-2">
+                        <p class="text-gray-100 mb-4">
+                            "The best card game I've ever played! Highly recommend it."
+                        </p>
+                        <div class="flex justify-start gap-4">
+                            <img class="w-8 h-8 rounded-full" src="assets/img6.jpeg" alt="Profite picture">
+                            <p class="font-bold text-gray-200">
+                                Bob
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial lg:min-w-96 min-w-full text-lg flex-grow snap-start p-6 bg-gray-800 rounded-lg shadow-lg mx-2">
+                        <p class="text-gray-100 mb-4">
+                            "Fun and addictive! I can't stop playing CheckGames."
+                        </p>
+                        <div class="flex justify-start gap-4">
+                            <img class="w-8 h-8 rounded-full" src="assets/img7.jpeg" alt="Profite picture">
+                            <p class="font-bold text-gray-200">
+                                Alice
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial lg:min-w-96 min-w-full text-lg flex-grow snap-start p-6 bg-gray-800 rounded-lg shadow-lg mx-2">
+                        <p class="text-gray-100 mb-4">
+                            "I can play CheckGames with my friends anytime, anywhere!"
+                        </p>
+                        <div class="flex justify-start gap-4">
+                            <img class="w-8 h-8 rounded-full" src="assets/img8.jpeg" alt="Profite picture">
+                            <p class="font-bold text-gray-200">
+                                Junior
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial lg:min-w-96 min-w-full text-lg flex-grow snap-start p-6 bg-gray-800 rounded-lg shadow-lg mx-2">
+                        <p class="text-gray-100 mb-4">
+                            "A must-have game for card game enthusiasts!"
+                        </p>
+                        <div class="flex justify-start gap-4">
+                            <img class="w-8 h-8 rounded-full" src="assets/img9.jpeg" alt="Profite picture">
+                            <p class="font-bold text-gray-200">
+                                Eve
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button id="scrollLeftBtn" type="button"
+                class="absolute -left-3 top-1/2 transform -translate-y-1/2 bg-gray-800 text-gray-100 font-bold text-xl flex items-center justify-center p-2 px-3 rounded-full shadow-lg">&lsaquo;</button>
+                <button id="scrollRightBtn" type="button"
+                class="absolute -right-3 top-1/2 transform -translate-y-1/2 bg-gray-800 text-gray-100 font-bold text-xl flex items-center justify-center p-2 px-3 rounded-full shadow-lg">&rsaquo;</button>
+             </div>
+        </div>
+       </div>
+
+       <!-- Section Team -->
+        <Section id="team" class="pt-0 py-28 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h1 id="team" class="bg-gray-800 rounded-xl text-gray-300 text-sm py-2 px-4 mb-4 w-fit mx-auto">
+                    Team
+                </h1>
+                <h2 class="text-5xl font-bold text-center text-gray-800 mb-12">
+                    Meet the Team
+                </h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <img class="w-32 h-32 rounded-full mx-auto mb-4" src="assets/img10.jpg" alt="Ali">
+                        <h3 class="text-2xl font-bold mb-2">Gaoussou Dicko</h3>
+                        <p class="text-gray-600 mb-4">
+                            Design Lead
+                        </p>
+                        <p class="text-gray-600">
+                            Gaoussou Dicko is the creative force behind CheckGames, responsible for the game's visual design, user interface, and overall aesthetic appeal.
+                        </p>
+                    </div>
+
+                    <div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <img class="w-32 h-32 rounded-full mx-auto mb-4" src="assets/img11.jpg" alt="
+                        Mourtada">
+                        <h3 class="text-2xl font-bold mb-2">Mouhamed Mourtada</h3>
+                        <p class="text-gray-600 mb-4">
+                            Lead Developer
+                        </p>
+                        <p class="text-gray-600">
+                            Mouhamed Mourtada is the technical mastermind behind CheckGames, responsible for developing and maintaining the game's core features and functionality.
+                        </p>
+                    </div>
+            </div>
+        </Section>
+
+       <!-- Bouton Retour en haut - Version carrée indigo -->
+<button id="backToTop" 
+    class="fixed bottom-8 right-8 z-50 p-4 bg-white border-2 border-indigo-500 text-indigo-500 
+           hover:bg-indigo-500 hover:text-white rounded-xl shadow-lg
+           transition-all duration-300 opacity-0 invisible scale-95 hover:scale-105 active:scale-95
+           transform-gpu group"
+    aria-label="Retour en haut">
+    
+    <!-- Flèche vers le haut - Blanche au survol -->
+    <svg xmlns="http://www.w3.org/2000/svg" 
+         class="h-6 w-6 transform transition-all duration-300 
+                group-hover:-translate-y-0.5 group-hover:stroke-white stroke-indigo-500" 
+         fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+    
+    <!-- Effet de fond au survol (optionnel) -->
+    <span class="absolute inset-0 rounded-xl bg-indigo-500 opacity-0 group-hover:opacity-10 
+                 transition-opacity duration-300 -z-10"></span>
+</button>
+
+        <!-- Footer -->
+<footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+        <!-- Logo et social -->
+        <div class="mb-8 md:mb-0 w-full md:w-auto text-center md:text-left">
+            <a href="#" class="logo text-3xl font-serif font-bold inline-block">
+                CheckGames
+            </a>
+            <p class="mt-2 text-xl text-gray-300">
+                Unleash Your Card Game
+            </p>
+            <div class="flex justify-center md:justify-start mt-4 space-x-4">
+                <a href="#" class="hover:text-gray-400">
+                    <img class="w-8 h-8" src="assets/img12.png" alt="Github">
+                </a>
+                <a href="#" class="hover:text-gray-400">
+                    <img class="w-8 h-8" src="assets/img13.png" alt="linkedin">
+                </a>
+            </div>
+        </div>
+        
+        <!-- Liens -->
+        <div class="flex flex-col md:flex-row w-full md:w-auto text-center md:text-left space-y-8 md:space-y-0 md:space-x-12 mb-8 md:mb-0">
+            <div>
+                <h3 class="font-bold text-lg mb-4">Explore</h3>
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#" class="hover:text-gray-300 transition-colors">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-gray-300 transition-colors">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-gray-300 transition-colors">Testimonial</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-gray-300 transition-colors">Articles</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="font-bold text-lg mb-4">Community</h3>
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#" class="hover:text-gray-300 transition-colors">Forum</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-gray-300 transition-colors">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-gray-300 transition-colors">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-gray-300 transition-colors">Help</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="font-bold text-lg mb-4">Contact</h3>
+                <div class="space-y-2">
+                    <div>
+                        <span class="text-gray-400">Email:</span>
+                        <a href="mailto:contact@checkgames.com" class="block hover:text-gray-300 transition-colors">contact@checkgames.com</a>
+                    </div>
+                    <div>
+                        <span class="text-gray-400">Address:</span>
+                        <p class="text-gray-300">123 Gaming Street, Game City, GC 12345</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bas de footer -->
+    <div class="mt-8 border-t border-gray-700 pt-6">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-gray-400 text-sm text-center md:text-left">
+                    &copy; 2025 CheckGames. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
