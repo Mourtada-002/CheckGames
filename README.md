@@ -4,11 +4,11 @@ CheckGames est un site web gaming moderne permettant de découvrir des jeux,
 des actualités et du contenu lié à l’univers du gaming.
 
 ## 🌐 Voir le site en ligne
-👉 https://checkgames.netlify.app
+👉 https://play-checkgames.netlify.app/
 
 ## 🛠️ Technologies utilisées
 - HTML
-- CSS
+- Tailwind CSS
 - JavaScript
 
 ## 📁 Code source
