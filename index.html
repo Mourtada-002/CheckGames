@@ -66,45 +66,45 @@
         </div>
     </nav>
 
-    <!-- header component -->
-    <div id="header-coponent" class="header flex flex-col lg:flex-row bg-gradient-to-br from-gray-800 via-gray-900 to-gray-950 backdrop-contrast-200 overflow-x-clip min-h-[90vh]">
-        <!-- Image pour mobile (affichée en haut) -->
-        <div class="hero-mobile-gradient lg:hidden flex justify-center items-center pt-8 px-4 relative">
-            <div class="relative w-full max-w-md flex justify-center items-center animate-float">
-                <img class="h-64 z-20 transition-all duration-500 hover:scale-105 hover:rotate-2 object-contain filter drop-shadow-2xl" src="assets/img.png" alt="ensemble d'items de jeux">
+    <!-- Header component -->
+    <div id="header-coponent" class="header flex flex-col lg:flex-row bg-gradient-to-br from-gray-800 via-gray-900 to-gray-950 backdrop-contrast-200 overflow-x-clip min-h-[80vh] md:min-h-[70vh] lg:min-h-[90vh]">
+            <!-- Image pour mobile (affichée en haut) -->
+    <div class="hero-mobile-gradient lg:hidden flex justify-center items-center pt-8 px-4 relative">
+        <div class="relative w-full max-w-md flex justify-center items-center animate-float">
+            <img class="h-64 md:h-80 z-20 transition-all duration-500 hover:scale-105 hover:rotate-2 object-contain filter drop-shadow-2xl" src="assets/img.png" alt="ensemble d'items de jeux">
 
-                <div class="absolute w-64 h-64 rounded-full bg-indigo-500/40 -z-10 blur-[80px] contrast-150 top-0 -left-10 animate-pulse"></div>
-                <div class="absolute w-48 h-48 rounded-full bg-purple-800/50 -z-10 blur-[80px] contrast-150 top-12 left-3/4 -translate-x-1/2"></div>
-                <div class="absolute w-64 h-64 rounded-full bg-pink-500/40 -z-10 blur-[80px] contrast-150 animate-pulse -bottom-8 left-1/3 -translate-y-1/4"></div>
-            </div>
+            <div class="absolute w-64 h-64 rounded-full bg-indigo-500/40 -z-10 blur-[80px] contrast-150 top-0 -left-10 animate-pulse"></div>
+            <div class="absolute w-48 h-48 rounded-full bg-purple-800/50 -z-10 blur-[80px] contrast-150 top-12 left-3/4 -translate-x-1/2"></div>
+            <div class="absolute w-64 h-64 rounded-full bg-pink-500/40 -z-10 blur-[80px] contrast-150 animate-pulse -bottom-8 left-1/3 -translate-y-1/4"></div>
         </div>
+    </div>
 
-        <!-- Contenu texte -->
-        <div class="pt-8 lg:pt-12 md:pt-16 pb-6 px-6 md:px-8 lg:pl-12 lg:pr-0 lg:w-7/12 w-full grid grid-cols-1 auto-rows-min lg:justify-items-start justify-items-center gap-y-4 scroll-reveal">
-            <h1 class="lg:text-8xl text-4xl md:text-5xl text-center lg:text-start font-bold text-transparent bg-gradient-to-r from-white via-indigo-200 to-purple-200 bg-clip-text text-balance leading-tight">
-                Play without limits with <span class="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">CheckGames</span>
-            </h1>
-            <h2 class="text-xl md:text-2xl lg:text-3xl text-center text-balance lg:text-start text-gray-300 mt-6 md:mt-8 leading-relaxed">
-                Play a simple card game and face off against other players. Are you ready to dominate the arena?
-            </h2>
-            <div class="flex justify-between gap-4 md:gap-6 mt-4 md:flex-row flex-col">
-                <button class="bg-gradient-to-r from-white to-gray-100 transition-all duration-300 hover:from-indigo-500 hover:to-purple-600 text-gray-900 hover:text-white font-bold text-center rounded-lg text-lg md:text-xl px-6 md:px-8 py-3 md:py-4 uppercase hover-lift transform hover:-translate-y-1 hover:shadow-xl hover:shadow-indigo-500/30">
-                    Play now
-                </button>
-                <a href="#how-toPlay" class="transition-all duration-300 hover:text-white font-bold text-center rounded-lg text-lg md:text-xl px-6 md:px-8 py-3 md:py-4 bg-transparent border-2 border-white/30 text-gray-100 hover:border-indigo-500 hover:bg-gradient-to-r hover:from-indigo-600/20 hover:to-purple-600/20 hover-lift">
-                    How to play
-                </a>            
-            </div>
+    <!-- Contenu texte -->
+    <div class="pt-8 lg:pt-12 md:pt-10 pb-6 px-6 md:px-12 lg:pl-12 lg:pr-0 lg:w-7/12 w-full grid grid-cols-1 auto-rows-min lg:justify-items-start justify-items-center gap-y-4 scroll-reveal">
+        <h1 class="lg:text-8xl text-4xl md:text-6xl text-center lg:text-start font-bold text-transparent bg-gradient-to-r from-white via-indigo-200 to-purple-200 bg-clip-text text-balance leading-tight">
+            Play without limits with <span class="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">CheckGames</span>
+        </h1>
+        <h2 class="text-xl md:text-2xl lg:text-3xl text-center text-balance lg:text-start text-gray-300 mt-6 md:mt-8 leading-relaxed">
+            Play a simple card game and face off against other players. Are you ready to dominate the arena?
+        </h2>
+        <div class="flex justify-between gap-4 md:gap-6 mt-4 md:flex-row flex-col">
+            <button class="bg-gradient-to-r from-white to-gray-100 transition-all duration-300 hover:from-indigo-500 hover:to-purple-600 text-gray-900 hover:text-white font-bold text-center rounded-lg text-lg md:text-xl px-6 md:px-8 py-3 md:py-4 uppercase hover-lift transform hover:-translate-y-1 hover:shadow-xl hover:shadow-indigo-500/30">
+                Play now
+            </button>
+            <a href="#how-toPlay" class="transition-all duration-300 hover:text-white font-bold text-center rounded-lg text-lg md:text-xl px-6 md:px-8 py-3 md:py-4 bg-transparent border-2 border-white/30 text-gray-100 hover:border-indigo-500 hover:bg-gradient-to-r hover:from-indigo-600/20 hover:to-purple-600/20 hover-lift">
+                How to play
+            </a>            
         </div>
+    </div>
 
-        <!-- Image pour desktop (cachée sur mobile) -->
-        <div class="hero-wrapper z-0 relative hidden lg:flex justify-center items-center animate-float">
-            <img class="h-3/4 z-20 transition-all duration-500 hover:scale-105 hover:rotate-2 object-contain filter drop-shadow-2xl" src="assets/img.png" alt="ensemble d'items de jeux">
+    <!-- Image pour desktop (cachée sur mobile) -->
+    <div class="hero-wrapper z-0 relative hidden lg:flex justify-center items-center animate-float">
+        <img class="h-3/4 z-20 transition-all duration-500 hover:scale-105 hover:rotate-2 object-contain filter drop-shadow-2xl" src="assets/img.png" alt="ensemble d'items de jeux">
 
-            <div class="absolute w-96 h-96 rounded-full bg-indigo-500/40 -z-10 blur-[100px] contrast-150 top-0 -left-10 animate-pulse"></div>
-            <div class="absolute w-3/4 h-3/4 rounded-full bg-purple-800/50 -z-10 blur-[100px] contrast-150 top-32 left-2/3 -translate-x-1/2"></div>
-            <div class="absolute w-96 h-96 rounded-full bg-pink-500/40 -z-10 blur-[100px] contrast-150 animate-pulse -bottom-1/4 left-1/3 -translate-y-1/4"></div>
-        </div>
+        <div class="absolute w-96 h-96 rounded-full bg-indigo-500/40 -z-10 blur-[100px] contrast-150 top-0 -left-10 animate-pulse"></div>
+        <div class="absolute w-3/4 h-3/4 rounded-full bg-purple-800/50 -z-10 blur-[100px] contrast-150 top-32 left-2/3 -translate-x-1/2"></div>
+        <div class="absolute w-96 h-96 rounded-full bg-pink-500/40 -z-10 blur-[100px] contrast-150 animate-pulse -bottom-1/4 left-1/3 -translate-y-1/4"></div>
+    </div>
     </div>
 
     <!-- Section How to Play -->
@@ -396,98 +396,102 @@
     </button>
 
     <!-- Footer -->
-    <footer class="bg-gradient-to-b from-gray-900 to-gray-950 text-white py-12 border-t border-gray-800">
-        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
-            <!-- Logo et social -->
-            <div class="mb-8 md:mb-0 w-full md:w-auto text-center md:text-left">
-                <a href="#" class="logo text-3xl font-serif font-bold inline-block bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    CheckGames
-                </a>
-                <p class="mt-2 text-xl text-gray-300">
-                    Unleash Your Card Game
-                </p>
-                <div class="flex justify-center md:justify-start mt-6 space-x-4">
-                    <a href="#" class="hover-lift transform hover:-translate-y-1 transition-all duration-300">
-                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center border border-gray-700 hover:border-indigo-500">
-                            <img class="w-5 h-5 invert" src="assets/img12.png" alt="Github">
-                        </div>
-                    </a>
-                    <a href="#" class="hover-lift transform hover:-translate-y-1 transition-all duration-300">
-                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center border border-gray-700 hover:border-indigo-500">
-                            <img class="w-5 h-5" src="assets/img13.png" alt="LinkedIn">
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            <!-- Liens -->
-            <div class="flex flex-col md:flex-row w-full md:w-auto text-center md:text-left space-y-8 md:space-y-0 md:space-x-12 mb-8 md:mb-0">
-                <div>
-                    <h3 class="font-bold text-lg mb-4 text-indigo-300">Explore</h3>
-                    <ul class="space-y-3">
-                        <li>
-                            <a href="#" class="text-gray-300 hover:text-indigo-300 transition-all duration-300 hover:translate-x-1 inline-block">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-300 hover:text-indigo-300 transition-all duration-300 hover:translate-x-1 inline-block">Features</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-300 hover:text-indigo-300 transition-all duration-300 hover:translate-x-1 inline-block">Testimonial</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-300 hover:text-indigo-300 transition-all duration-300 hover:translate-x-1 inline-block">Articles</a>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h3 class="font-bold text-lg mb-4 text-purple-300">Community</h3>
-                    <ul class="space-y-3">
-                        <li>
-                            <a href="#" class="text-gray-300 hover:text-purple-300 transition-all duration-300 hover:translate-x-1 inline-block">Forum</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-300 hover:text-purple-300 transition-all duration-300 hover:translate-x-1 inline-block">Jobs</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-300 hover:text-purple-300 transition-all duration-300 hover:translate-x-1 inline-block">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-gray-300 hover:text-purple-300 transition-all duration-300 hover:translate-x-1 inline-block">Help</a>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h3 class="font-bold text-lg mb-4 text-pink-300">Contact</h3>
-                    <div class="space-y-3">
-                        <div>
-                            <span class="text-gray-400">Email:</span>
-                            <a href="mailto:contact@checkgames.com" class="block text-gray-300 hover:text-pink-300 transition-colors">contact@checkgames.com</a>
-                        </div>
-                        <div>
-                            <span class="text-gray-400">Address:</span>
-                            <p class="text-gray-300">123 Gaming Street, Game City, GC 12345</p>
-                        </div>
+<footer class="bg-gradient-to-b from-gray-900 to-gray-950 text-white py-12 border-t border-gray-800">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+        <!-- Logo et social -->
+        <div class="mb-8 md:mb-0 w-full md:w-auto text-center md:text-left">
+            <a href="#" class="logo text-3xl font-serif font-bold inline-block bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                CheckGames
+            </a>
+            <p class="mt-2 text-xl text-gray-300">
+                Unleash Your Card Game
+            </p>
+            <div class="flex justify-center md:justify-start mt-6 space-x-4">
+                <a href="https://www.linkedin.com/in/mouhamed-mourtada-dicko-309089339/" target="_blank" class="hover-lift transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center border border-gray-700 hover:border-indigo-500">
+                        <svg class="w-5 h-5 text-gray-300 hover:text-indigo-400 transition-colors" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
                     </div>
-                </div>
+                </a>
+                <a href="https://github.com/Mourtada-002" target="_blank" class="hover-lift transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center border border-gray-700 hover:border-indigo-500">
+                        <svg class="w-5 h-5 text-gray-300 hover:text-indigo-400 transition-colors" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 10 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                </a>
             </div>
         </div>
         
-        <!-- Bas de footer -->
-        <div class="mt-12 border-t border-gray-800 pt-8">
-            <div class="container mx-auto px-6">
-                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-                    <p class="text-gray-500 text-sm text-center md:text-left">
-                        &copy; 2025 CheckGames. All rights reserved.
-                    </p>
-                    <div class="flex space-x-6">
-                        <a href="#" class="text-gray-400 hover:text-indigo-300 transition-colors text-sm hover:underline">Terms of Service</a>
-                        <a href="#" class="text-gray-400 hover:text-indigo-300 transition-colors text-sm hover:underline">Privacy Policy</a>
+        <!-- Liens -->
+        <div class="flex flex-col md:flex-row w-full md:w-auto text-center md:text-left space-y-8 md:space-y-0 md:space-x-12 mb-8 md:mb-0">
+            <div>
+                <h3 class="font-bold text-lg mb-4 text-indigo-300">Explore</h3>
+                <ul class="space-y-3">
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-indigo-300 transition-all duration-300 hover:translate-x-1 inline-block">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-indigo-300 transition-all duration-300 hover:translate-x-1 inline-block">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-indigo-300 transition-all duration-300 hover:translate-x-1 inline-block">Testimonial</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-indigo-300 transition-all duration-300 hover:translate-x-1 inline-block">Articles</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="font-bold text-lg mb-4 text-purple-300">Community</h3>
+                <ul class="space-y-3">
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-purple-300 transition-all duration-300 hover:translate-x-1 inline-block">Forum</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-purple-300 transition-all duration-300 hover:translate-x-1 inline-block">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-purple-300 transition-all duration-300 hover:translate-x-1 inline-block">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-300 hover:text-purple-300 transition-all duration-300 hover:translate-x-1 inline-block">Help</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="font-bold text-lg mb-4 text-pink-300">Contact</h3>
+                <div class="space-y-3">
+                    <div>
+                        <span class="text-gray-400">Email:</span>
+                        <a href="mailto:contact@checkgames.com" class="block text-gray-300 hover:text-pink-300 transition-colors">contact@checkgames.com</a>
+                    </div>
+                    <div>
+                        <span class="text-gray-400">Address:</span>
+                        <p class="text-gray-300">123 Gaming Street, Game City, GC 12345</p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+    
+    <!-- Bas de footer -->
+    <div class="mt-12 border-t border-gray-800 pt-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-gray-500 text-sm text-center md:text-left">
+                    &copy; 2025 CheckGames. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-indigo-300 transition-colors text-sm hover:underline">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-indigo-300 transition-colors text-sm hover:underline">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
