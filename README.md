@@ -7,7 +7,8 @@ des actualités et du contenu lié à l’univers du gaming.
 👉 https://play-checkgames.netlify.app/
 
 ## 🛠️ Technologies utilisées
-- HTML
+- HTML5
+- CSS3
 - Tailwind CSS
 - JavaScript
 
