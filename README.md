@@ -1,16 +1,32 @@
-# 🎮 CheckGames
+# CheckGames
 
-CheckGames est un site web gaming moderne permettant de découvrir des jeux,
-des actualités et du contenu lié à l’univers du gaming.
+Un site web gaming moderne pour découvrir des jeux, suivre les actualités et explorer l'univers du gaming.
 
-## 🌐 Voir le site en ligne
-👉 https://play-checkgames.netlify.app/
+## Technologies
 
-## 🛠️ Technologies utilisées
 - HTML5
 - CSS3
 - Tailwind CSS
 - JavaScript
 
-## 📁 Code source
-Ce repository contient l’ensemble du code du projet.
+## Lancer le projet
+
+```bash
+git clone https://github.com/ton-username/CheckGames.git
+cd CheckGames
+```
+
+Ouvrir `index.html` dans le navigateur, aucune installation requise.
+
+## Structure
+
+```
+CheckGames/
+├── index.html
+├── style.css
+└── script.js
+```
+
+## Licence
+
+MIT
