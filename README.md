@@ -12,7 +12,7 @@ Un site web gaming moderne pour découvrir des jeux, suivre les actualités et e
 ## Lancer le projet
 
 ```bash
-git clone https://github.com/ton-username/CheckGames.git
+git clone https://github.com/Mourtada-002/CheckGames.git
 cd CheckGames
 ```
 
