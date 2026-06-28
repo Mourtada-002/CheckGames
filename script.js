@@ -209,3 +209,9 @@ document.addEventListener("DOMContentLoaded", function () {
     `;
   document.head.appendChild(style);
 });
+
+// COPYRIGHT - année dynamique
+const currentYearEl = document.getElementById('current-year');
+if (currentYearEl) {
+  currentYearEl.textContent = new Date().getFullYear();
+}
